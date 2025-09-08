@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // IMPORTANT: Replace this with your actual backend URL when deploying.
 // For Gitpod, you can find the server's URL from the "Ports" tab.
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://ramufashions.onrender.com';
 
 const apiClient = axios.create({
   baseURL: `${API_URL}/api`,
